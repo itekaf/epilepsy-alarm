@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Epilepsy Alarm",
+  "name": "Epilepsy Alarm",
 	"slug": "epilepsy-alarm",
 	"description": "Simple App for Alarm when epilepsy happens",
 	"githubUrl": "https://github.com/svoboda-rabstvo/epilepsy-alarm/",
@@ -37,6 +37,7 @@
 		"ACCESS_FINE_LOCATION",
 		"ACCESS_COARSE_LOCATION"
 	  ]
-    }
+    },
+    "entryPoint": "./src/app/app.component.tsx"
   }
 }
