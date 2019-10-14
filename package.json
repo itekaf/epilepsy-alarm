@@ -1,55 +1,30 @@
 {
-  "author": "Roman Lauryniuk and Dzmitry Ihnatsenka",
-  "name": "epilepsy-alarm",
-  "version": "0.0.0-development",
-  "description": "Simple App for Alarm when epilepsy happens",
-  "license": "MIT",
-  "repository": "svoboda-rabstvo/epilepsy-alarm",
-  "bugs": "https://github.com/svoboda-rabstvo/epilepsy-alarm/issue",
-  "private": false,
-  "main": "node_modules/expo/AppEntry.js",
-  "files": [
-    "build/",
-    "README.md"
-  ],
+  "name": "EpilepsyDetector",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start:android": "expo start --android",
-    "start:ios": "expo start --ios",
-    "start:web": "expo start --web",
-    "start": "expo start",
-    "build:android": "expo build:android",
-    "build:ios": "expo build:ios",
-    "build:web": "expo build:web",
-    "build": "npm run build:ios && npm run build:web && npm run build:android",
-    "test:lint": "tslint --project .",
-    "test": "npm run test:lint && npm run build:web",
-    "eject": "expo eject",
-    "semantic-release": "semantic-release"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest"
   },
   "dependencies": {
-    "@expo/vector-icons": "^10.0.3",
-    "expo": "^33.0.0",
-    "redux": "^4.0.4",
-    "react": "16.8.3",
-    "react-dom": "^16.8.6",
-    "react-redux": "^7.1.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
-    "react-native-web": "^0.11.4"
+    "react": "16.8.1",
+    "react-native": "0.61.2",
+    "react-native-base64": "0.0.2",
+    "react-native-ble-manager": "^6.6.10",
+    "react-native-ble-plx": "^1.1.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "@types/react": "^16.8.19",
-    "@types/redux": "^3.6.0",
-    "@types/react-native": "^0.57.60",
-    "@types/react-redux": "^7.1.1",
-    "tslint": "^5.18.0",
-    "tslint-react": "^4.0.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
-    "husky": "^3.0.1",
-    "typescript": "^3.4.5",
-    "babel-preset-expo": "^5.1.1",
-    "semantic-release": "^15.13.18"
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "react-test-renderer": "16.8.1"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

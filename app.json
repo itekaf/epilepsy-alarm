@@ -1,43 +1,4 @@
 {
-  "expo": {
-  "name": "Epilepsy Alarm",
-	"slug": "epilepsy-alarm",
-	"description": "Simple App for Alarm when epilepsy happens",
-	"githubUrl": "https://github.com/svoboda-rabstvo/epilepsy-alarm/",
-	"version": "1.0.0",
-	"privacy": "public",
-    "sdkVersion": "33.0.0",
-    "platforms": [
-      "ios",
-      "web",
-      "android"
-	],
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-	  "package": "com.yourcompany.yourappname",
-	  "permissions": [
-		"BLUETOOTH",
-		"READ_CONTACTS",
-		"BLUETOOTH_ADMIN",
-		"ACCESS_FINE_LOCATION",
-		"ACCESS_COARSE_LOCATION"
-	  ]
-    },
-    "entryPoint": "./src/app/app.component.tsx"
-  }
+  "name": "EpilepsyDetector",
+  "displayName": "EpilepsyDetector"
 }

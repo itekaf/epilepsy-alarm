@@ -1,0 +1,6 @@
+module Pods_EpilepsyDetector {
+  umbrella header "Pods-EpilepsyDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}
